@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBC Game</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kaun Banega Crorepati</h1>
+        <div id="question-container">
+            <p id="question-text"></p>
+            <p id="prize-level"></p>
+            <div id="options">
+                <button onclick="submitAnswer(1)" class="option-btn"></button>
+                <button onclick="submitAnswer(2)" class="option-btn"></button>
+                <button onclick="submitAnswer(3)" class="option-btn"></button>
+                <button onclick="submitAnswer(4)" class="option-btn"></button>
+            </div>
+        </div>
+        <p id="message"></p>
+        <div id="video-container" style="display: none;">
+            <video id="win-video" controls autoplay>
+                <source src="/static/7Crore.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

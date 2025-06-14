@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+/* #user{
+    
+} */
+
+#you {
+    margin-left: 70px;
+}
+
+#com {
+    position: absolute;
+    right: 70px;
+    top: -2px;
+}
+
+#vs {
+    position: absolute;
+    top: 400px;
+    left: 710px;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline overline #ff3028;
+    text-shadow: 0px 0px 2px red, -11px 14px 1em blue, -6px 7px 0.2em blue;
+}
+
+#snack {
+    height: 300px;
+    width: 300px;
+    background-image: url(snake.jpg);
+    background-size: cover;
+    background-position: center;
+    /* center image */
+    background-repeat: no-repeat;
+    border: 5px solid rgb(227, 10, 10);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#water {
+    height: 300px;
+    width: 300px;
+    background-image: url(water.jpg);
+    background-size: cover;
+    background-position: center;
+    /* center image */
+    background-repeat: no-repeat;
+    border: 5px solid rgb(227, 10, 10);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#gun {
+    height: 300px;
+    width: 300px;
+    background-image: url(gun.jpg);
+    background-size: cover;
+    background-position: center;
+    /* center image */
+    background-repeat: no-repeat;
+    border: 5px solid rgb(227, 10, 10);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#computer {
+    position: absolute;
+    right: 20px;
+    top: 60px;
+}
