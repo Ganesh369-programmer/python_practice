@@ -31,18 +31,21 @@ ch2.child_method()
 #########################################################
 
 class employee:
-    def __init__(self , name , id ):
-        self.name = name
-        self.id = id
-
+    def __init__(self , name , age ):
+        self.name = name 
+        self.age = age
+        
 
 class programmer(employee):
-    def __init__(self, name, id , lang):
-        self.lang = lang
-        super().__init__(name, id)
+    def __init__(self, name , age , language):
+        super().__init__(name , age)
+        self.language = language
+        print(f"My name is {self.name} and age is {self.age}")
 
-rohan = employee("Ganesh pawar" , 420)
-harry = programmer("harry" , "2345" , "Python")
+        print(f"My name is {self.name} and age is {self.age} and i am trying to learn the {self.language}")
 
-print(harry.name)
-print(rohan.name)
+p1 = programmer("Ganesh" , 35 , "python")
+e1 = employee("Harry" , 40)
+print(f"My name is {e1.name} and age is {e1.age}")
+
+
